@@ -1,4 +1,4 @@
 package data.repositories;
 
-public interface GatePassRepo {
+public interface GatePassRepo  {
 }
