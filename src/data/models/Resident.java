@@ -1,7 +1,7 @@
 package data.models;
 public class Resident {
     private String name;
-    private String id;
+    private int id;
     private String phoneNumber;
     private String residentAddress;
 
@@ -13,11 +13,11 @@ public class Resident {
         this.name = name;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
